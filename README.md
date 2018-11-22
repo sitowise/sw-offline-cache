@@ -44,6 +44,9 @@ await db.removeTile('https://tiles.example.com/3/4/5.png');
 
 // Remove edit. Key can be retrieved with db.getAllEdits(true);
 await db.removeEdit('generated key for the edit');
+
+// Close the database
+await db.close()
 ```
 
 Run the test. Tests are written with jest.
