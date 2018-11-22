@@ -1,0 +1,28 @@
+{
+  "name": "sw-offline-cache",
+  "version": "0.0.1",
+  "description": "Offline cache for map tiles and edits",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/sitowise/sw-offline-cache"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "fake-indexeddb": "^2.0.4",
+    "jest": "^23.6.0"
+  },
+  "jest": {
+    "verbose": true,
+    "globals": {
+      "window": true
+    }
+  },
+  "dependencies": {
+    "nano-equal": "^2.0.2"
+  }
+}
